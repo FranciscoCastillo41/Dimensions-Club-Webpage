@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Button, Row, Col } from 'react-bootstrap';
+import { Container, Card, Row, Col } from 'react-bootstrap';
 
 const Events = () => {
   const eventsData = [
@@ -33,14 +33,13 @@ const Events = () => {
                 <Card.Title style={{ fontSize: '1rem', color: 'white' }}>{event.title}</Card.Title>
                 <Card.Text style={{ fontSize: '0.9rem', color: 'white' }}>{event.description}</Card.Text>
               </Card.Body>
-              <Card.Footer className="text-muted" style={{ fontSize: '0.8rem', color: 'white' }}>
+              <Card.Footer  style={{ fontSize: '0.8rem', color: 'white' }}>
                 {event.date}
               </Card.Footer>
             </Card>
           </Col>
         ))}
       </Row>
-     
     </Container>
   );
 };

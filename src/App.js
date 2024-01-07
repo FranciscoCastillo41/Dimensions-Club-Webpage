@@ -38,7 +38,7 @@ function App() {
       case 'about':
         return <About />;
       case 'departments':
-        return <DepartmentsVersionTwo />
+        return <Departments />
       case 'contact':
         return <Contact />
       default:
@@ -48,12 +48,6 @@ function App() {
 
   return (
     <div className="cover-page d-flex flex-column dynamic-background">
-      <div className="star-field">
-        <div className="layer"></div>
-        <div className="layer"></div>
-        <div className="layer"></div>
-      </div>
-
       <MyNavbar clubName={clubName} navLinks={navLinks} onSidebarToggle={handleSidebarToggle} onTabChange={handleTabChange}/>
       {renderContent()}
       

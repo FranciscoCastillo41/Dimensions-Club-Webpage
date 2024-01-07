@@ -3,19 +3,15 @@ import { Container, Navbar, Nav, Button, Offcanvas } from 'react-bootstrap';
 
 function MyNavbar({ clubName, navLinks, onSidebarToggle, onTabChange }) {
   const handleNavItemClick = (tabId) => {
-    onTabChange(tabId);
     
-    if (tabId === 'home') {
-      onSidebarToggle();
-    } else if (document.body.classList.contains('offcanvas-open')) {
-      onSidebarToggle();
-    }
+      onTabChange(tabId);
+    
   };
 
   return (
     <Navbar collapseOnSelect expand="lg" variant='dark'>
       <Container>
-        <Navbar.Brand onClick={() => handleNavItemClick('home')}>{clubName}</Navbar.Brand>
+        <Navbar.Brand onClick={() => onSidebarToggle()}>{clubName}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -38,3 +34,4 @@ function MyNavbar({ clubName, navLinks, onSidebarToggle, onTabChange }) {
 }
 
 export default MyNavbar;
+
