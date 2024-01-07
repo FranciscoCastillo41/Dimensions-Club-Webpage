@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a17cae7.css",
-    "main.js": "/static/js/main.3d258726.js",
-    "static/js/787.a8c3b7a0.chunk.js": "/static/js/787.a8c3b7a0.chunk.js",
-    "index.html": "/index.html",
-    "main.5a17cae7.css.map": "/static/css/main.5a17cae7.css.map",
-    "main.3d258726.js.map": "/static/js/main.3d258726.js.map",
-    "787.a8c3b7a0.chunk.js.map": "/static/js/787.a8c3b7a0.chunk.js.map"
+    "main.css": "/Dimensions-Club-Webpage/static/css/main.5a17cae7.css",
+    "main.js": "/Dimensions-Club-Webpage/static/js/main.e2963979.js",
+    "static/js/787.a8c3b7a0.chunk.js": "/Dimensions-Club-Webpage/static/js/787.a8c3b7a0.chunk.js",
+    "index.html": "/Dimensions-Club-Webpage/index.html",
+    "main.5a17cae7.css.map": "/Dimensions-Club-Webpage/static/css/main.5a17cae7.css.map",
+    "main.e2963979.js.map": "/Dimensions-Club-Webpage/static/js/main.e2963979.js.map",
+    "787.a8c3b7a0.chunk.js.map": "/Dimensions-Club-Webpage/static/js/787.a8c3b7a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a17cae7.css",
-    "static/js/main.3d258726.js"
+    "static/js/main.e2963979.js"
   ]
 }
